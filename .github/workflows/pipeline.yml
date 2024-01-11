@@ -1,0 +1,11 @@
+name: Create Pipeline
+
+on:
+  push:
+    branches: main
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "run ci"

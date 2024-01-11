@@ -1,6 +1,6 @@
 {
   "name": "example-release-it",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   },
   "release-it": {
     "git": {
-      "requireBranch": "main",
+      "requireBranch": "release/*",
       "commitMessage": "chore: release v${version}",
       "requireCommits": true,
       "requireCleanWorkingDir": false,
