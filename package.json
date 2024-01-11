@@ -20,7 +20,7 @@
       "commitMessage": "chore: release v${version}",
       "requireCommits": true,
       "requireCleanWorkingDir": false,
-      "push": true
+      "push": false
     },
     "github": {
       "release": true,
@@ -31,10 +31,10 @@
     },
     "hooks": {
       "before:init": [
-        "git pull",
         "pnpm test"
       ],
-      "after:bump": "npx auto-changelog -p"
+      "after:bump": "npx auto-changelog -p",
+      "after:git:release": "git push origin release"
     },
     "plugins": {
       "@release-it/conventional-changelog": {
