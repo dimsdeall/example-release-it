@@ -16,7 +16,7 @@
   },
   "release-it": {
     "git": {
-      "requireBranch": "release/*",
+      "requireBranch": "release",
       "commitMessage": "chore: release v${version}",
       "requireCommits": true,
       "requireCleanWorkingDir": false,
