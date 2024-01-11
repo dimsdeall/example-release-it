@@ -3,7 +3,6 @@
 ## [0.1.2](https://github.com/dimsdeall/example-release-it/compare/0.0.3...0.1.2) (2024-01-11)
 
 
-
 ### Features
 
 * update package json ([#12](https://github.com/dimsdeall/example-release-it/issues/12)) ([b83fe20](https://github.com/dimsdeall/example-release-it/commit/b83fe20daabb459e0f69a609e4fed35902b78eaf))
