@@ -8,4 +8,8 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
+<<<<<<< HEAD
       - run: echo "run new ci"
+=======
+      - run: echo "run new ci 2"
+>>>>>>> dev
